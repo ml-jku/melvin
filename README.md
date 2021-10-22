@@ -1,7 +1,7 @@
 # melvin
 
 ## Data
-Download the file `melvinFull.db.gz` from (here)[https://ml.jku.at/research/melvin/downloads/] and decompress it. The file `data.py` implements data access. For learning, the most central class is 
+Download the file `melvinFull.db.gz` from [here](https://ml.jku.at/research/melvin/downloads/) and decompress it. The file `data.py` implements data access. For learning, the most central class is 
 `MelvinDataset`, which wraps an [SQLite](https://www.sqlite.org/) database file as `pytorch.Dataset`. The file 
 `melvinFull.db` contains all the data. `data.py` has a main, which implements a few commands for 
 generating the database from text files, subsetting the data, deleting duplicates, sanity checks, 
