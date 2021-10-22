@@ -5,14 +5,7 @@ Download the file `melvinFull.db.gz` from (here)[https://ml.jku.at/research/melv
 `MelvinDataset`, which wraps an [SQLite](https://www.sqlite.org/) database file as `pytorch.Dataset`. The file 
 `melvinFull.db` contains all the data. `data.py` has a main, which implements a few commands for 
 generating the database from text files, subsetting the data, deleting duplicates, sanity checks, 
-and visualizing some statistics, which are presented below. 
-
-<img src="doc/pie.png"/>
-<img src="doc/counts_by_n.png"/>
-
-
-## Architecture
-<img src="doc/report_1901/arch.png"/>
+and visualizing some statistics.
 
 ## SRV Prediction
 The Schmidt-rank vector (SRV) resulting from an experiment is a 3-tuple $`(n, m, k)`$ with 
